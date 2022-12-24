@@ -1,0 +1,10 @@
+.user-login form input:nth-child(1){
+    display: none;
+}
+
+.user-login form .sub {
+    width: 145px;
+    font-size: 18px;
+    left: 175px;
+    top: 110px;
+}

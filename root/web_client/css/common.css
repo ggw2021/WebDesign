@@ -1,0 +1,193 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(5, 5, 5);
+    /* width: 1707px; */
+    /* height: 200px!important; */
+    /* height: 800px; */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* .wrap {
+    width: 100%;
+    height: 100%;
+}
+
+#firefly {
+    width: 100%;
+    height: 100%;
+} */
+
+.shutcut {
+    position: sticky;
+    top: 0px;
+    z-index: 10086;
+    width: 100%;
+    height: 64px;
+    background-color: rgb(53, 54, 54);
+    box-shadow: 0px -6px 12px 9px;
+}
+
+.shutcut h1 a img:nth-child(1) {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 35px;
+    /* vertical-align: top; */
+}
+.shutcut h1 a img:nth-child(2) {
+    float: left;
+    height: 50px;
+    margin-top: 10px;
+}
+
+/* .shutcut p {
+    padding: 0 10px;
+    float: left;
+    height: 64px;
+    line-height: 64px;
+    font-size: 40px;
+    font-family: '楷体';
+    color: rgb(153, 247, 72);
+} */
+
+.shutcut .fun {
+    float: right;
+    margin-right: 165px;
+}
+
+.shutcut .fun ul li {
+    float: left;
+    height: 64px;
+    line-height: 64px;
+    margin: 0 25px;
+    font-size: 16px;
+}
+
+.shutcut .fun ul li a {
+    color: rgb(255, 255, 255);
+}
+
+.shutcut .fun ul li a:hover {
+    color: pink;
+}
+
+.shutcut .fun ul li span {
+    font-family: 'icomoon';
+    font-size: 14px;
+}
+
+.shutcut .login {
+    /* float: right; */
+    position: absolute;
+    right: 100px;
+    margin-right: -65px;
+}
+
+.shutcut .login a {
+    float: left;
+}
+
+.shutcut .login a img {
+    float: left;
+    position: relative;
+    z-index: 100;
+    width: 36px;
+    height: 36px;
+    margin-top: 14px;
+    border-radius: 50%;
+    transition: width .04s, heigth .04s;
+}
+
+.shutcut .login a .change{
+    width: 56px;
+    height: 56px;
+    box-shadow: 0px 0px 9px 5px white;
+    /* margin-top: 50px; */
+}
+
+.shutcut .login a p {
+    float: left;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgb(210, 210, 210);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.shutcut .login .my-set{
+    position: absolute;
+    top: 64px;
+    right: 50px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+}
+
+.shutcut .login .my-set li{
+    width: 100px;
+    height: 24px;
+    margin: 10px 0;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    /* background-color: aqua; */
+}
+.shutcut .login .my-set li a{
+    color: rgb(0, 0, 0);
+}
+
+.shutcut .login .my-set li a:hover {
+    color: pink;
+}
+
+.shutcut .search {
+    float: right;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+.shutcut .search input {
+    float: left;
+    height: 32px;
+    width: 408px;
+    margin-top: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    border-radius: 6px;
+    color: rgb(0, 0, 0,.5);
+    background-color: rgb(255, 255, 255);
+}
+
+.shutcut .search input:focus {
+    background-color: rgb(226, 229, 231);
+}
+.shutcut .search button {
+    float: left;
+    height: 32px;
+    width: 32px;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-family: 'icomoon';
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+.shutcut .search button:hover {
+    background-color: rgb(226, 229, 231);
+}

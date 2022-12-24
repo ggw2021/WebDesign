@@ -1,0 +1,8 @@
+.book-store table thead tr td,
+.book-store table tbody tr td {
+    width: 30%;
+}
+
+.pages {
+    font-size: 16px;
+}

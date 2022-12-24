@@ -1,0 +1,128 @@
+.book-store {
+    position: relative;
+    height: 800px;
+    width: 1000px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255, .9);
+    border-radius: 40px;
+    text-align: center;
+}
+
+.book-store table {
+    position: absolute;
+    width: 80%;
+    top: 75px;
+    left: 100px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+}
+.book-store table thead tr{
+    font-weight: 700;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255)!important;
+}
+
+.book-store table tr:nth-child(2n+1){
+    background-color: rgb(211 211 211 / 30%);
+    /* height: 100px; */
+}
+
+.book-store table tr:nth-child(2n){
+    background-color: rgba(255, 255, 255,.6);
+    /* height: 100px; */
+}
+
+
+.book-store table tbody {
+    background-color: rgba(255, 255, 255,.6);
+    display: block;
+    width: 100%;
+    height: 612px;
+    overflow-y: auto;
+}
+.book-store table tbody::-webkit-scrollbar {
+    display: none;
+}
+
+/* bug */
+.book-store table thead tr td { 
+    float: left;
+}
+
+/* .book-store table thead tr, */
+.book-store table tbody tr{
+    display: block;
+    /* height: 36px; */
+}
+
+.book-store table thead tr td,
+.book-store table tbody tr td {
+    display: inline-block;
+    width: 15%;
+    height: 36px;
+    /* border: 1px transparent; */
+    text-align: center;
+    line-height: 36px;
+    padding: 0 6px;
+    /* 一行显示 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.book-store table tbody tr td:hover {
+    cursor: pointer;
+}
+
+.book-store table thead tr td:nth-child(1),
+.book-store table tbody tr td:nth-child(1) {
+    width: 40%;
+    color: black;
+}
+
+.book-store table tr td:nth-child(n+2) {
+    border-left: 1px solid rgb(0, 0, 0,.1);
+}
+.book-store table tbody tr td:nth-child(1):hover a {
+    color: pink;
+}
+
+.pages {
+    display: inline-block;
+    height: 36px;
+    bottom: 10px;
+    left: 310px;
+    margin-top: 740px;
+}
+
+.pages ul {
+    float: left;
+}
+
+.pages ul li {
+    float: left;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin: 6px 4px;
+    background-color: rgba(180, 180, 180, .4);
+    border-radius: 50%;
+}
+
+.pages span {
+    float: left;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin: 6px 4px;
+    background-color: rgba(180, 180, 180, .4);
+    border-radius: 50%;
+    font-family: 'icomoon';
+}
+
+.pages ul li:hover,
+.pages span:hover {
+    cursor: pointer;
+    background-color: rgb(251, 251, 251);
+}

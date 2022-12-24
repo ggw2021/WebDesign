@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GNK48-图书管理</title>
+    <link rel="shortcut icon" href="images/favicon_fox.ico">
+
+    <!-- 轮播图 -->
+    <link rel="stylesheet" href="css/imageflow.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/cursor.css">
+    <link rel="stylesheet" href="css/bookDescription.css">
+    <script src="js/cursor.js"></script>
+    <script src="js/imageflow.js"></script>
+    <script src="js/jquery_min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/bookDescription.js"></script>
+</head>
+
+<body>
+    <!--鼠标形状元素-->
+    <div id="cursorBlob"></div>
+    <!--页面内容-->
+    <div class="wrap"></div>
+    <div id="firefly"></div>
+    <!-- 顶部快捷导航begin -->
+    <section class="shutcut">
+        <h1>
+            <a href="index.html">
+                <img src="images/favicon_fox.ico" alt="">
+                <img src="images/logo.png" alt="">
+            </a>
+        </h1>
+        <div class="login">
+            <a href="javascript:;">
+                <img class="" src="images/login.png" alt="">
+                <p>...</p>
+            </a>
+            <ul class="my-set">
+                <li><a href="change.html">修改密码</a></li>
+                <li><a href="nickname.html">修改昵称</a></li>
+                <li><a href="my_pic.html">更换头像</a></li>
+                <li><a href="message.html">联系我们</a></li>
+                <li><a href="javascript:;">退出登录</a></li>
+            </ul>
+        </div>
+        <div class="fun">
+            <ul>
+                <li>
+                    <a href="bookStore.html">
+                        <span></span>
+                        书库
+                    </a>
+                </li>
+                <li>
+                    <a href="myStore.html">
+                        <span></span>
+                        我的图书
+                    </a>
+                </li>
+                <li>
+                    <a href="borrow_records.html">
+                        <span></span>
+                        借阅记录
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <dic class="search">
+            <input type="text" value="请输入书名...">
+            <button></button>
+        </dic>
+    </section>
+    <!-- 顶部快捷导航end -->
+    <!-- 图书介绍begin -->
+    <div class="description w">
+        <img src="#" alt="">
+        <!-- <img src="upload/book1.jpg" alt=""> -->
+        <ul>
+            <li>
+                <h5>书名：</h5>
+                <p></p>
+            </li>
+            <li>
+                <h5>作者：</h5>
+                <p></p>
+            </li>
+            <li>
+                <h5>简介：</h5>
+                <p></p>
+            </li>
+            <li>
+                <button>借阅</button>
+            </li>
+            <!-- <li>
+                <h5>书名：</h5>
+                <p>sdasa</p>
+            </li>
+            <li>
+                <h5>作者：</h5>
+                <p>sadadadxasd</p>
+            </li>
+            <li>
+                <h5>简介：</h5>
+                <p>全套配套资料教程，关注微信公众号：黑马程序员，回复：领取资源02 2022版前端最新最全学习路线图 2022年web前端开发学习路线图 资源下载问题 黑马程序员教程资源下载指南 web入门
+                    H5C3+移动布局 ：黑马程序员pink老师前端入门教程，零基础必看的h5(html5)+css3+移动端前端视频教程
+                    JavaScript系列：JavaScript基础语法-dom-bom-js-es6新语法-jQuery-数据可视化echarts黑马pink老师前端入门基础视频教程(500多集)持续 技术进阶
+                    jQuery：黑马程序员前端基础必备教程|jQuery网页开发案例精讲 Ajax：黑马程序员AJAX零基础到精通_整合Git核心内容全套教程 Vue开发 Node.js:
+                    黑马程序员Node.js全套入门教程，nodejs最新教程含es6模块化+npm+express+webpack+promise等_Nodejs实战案例详解
+                    Vue2+Vue3全套：黑马程序员Vue全套视频教程，从vue2.0到vue3.0一套全覆盖，前端必会的框架教程 React&小程序开发
+                    React：黑马程序员前端React视频教程，react零基础入门原理详解到好客租房项目实战
+                    零基础玩转微信小程序：黑马程序员前端微信小程序开发教程，微信小程序从基础到发布全流程_企业级商城实战(含uni-app项目多端部署) 教程学习可能遇到的问题答疑（非技术型）：黑马程序员学习常见问题答疑
+                    hshdadadadada</p>
+            </li>
+            <li>
+                <button>借阅</button>
+            </li> -->
+        </ul>
+    </div>
+    <!-- 图书介绍begin -->
+    <!-- 鼠标样式 -->
+    <!-- <script src="js/bubbleCursor.js" type="text/javascript"></script> -->
+    <script src='js/jquery.firefly-0.7.min.js'></script>
+    <script type="text/javascript">
+        $.firefly({
+            color: '#fff',
+            minPixel: 1,
+            maxPixel: 3,
+            total: 65,
+            on: '#firefly',
+            borderRadius: 50
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+.mKeBanner,
+.mKeBanner div {
+    text-align: center;
+}
+
+.imageflow img {
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.1);
+    box-shadow: 3px 3px 6px  hsla(0, 0%, 100%, .6);
+}
+
+.imageflow {
+    /* overflow: hidden; */
+    position: relative;
+    text-align: left;
+    visibility: hidden;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.imageflow img {
+    border: none;
+    position: absolute;
+    top: 0px;
+    visibility: hidden;
+    -ms-interpolation-mode: bicubic
+}
+
+.imageflow p {
+    margin: 0 auto;
+    text-align: center
+}
+
+.imageflow .loading {
+    border: 1px solid #ccc;
+    height: 15px;
+    left: 50%;
+    margin-left: -106px;
+    padding: 5px;
+    position: relative;
+    visibility: visible;
+    width: 200px
+}
+
+.imageflow .loading_bar {
+    background: #ccc;
+    height: 15px;
+    visibility: visible;
+    width: 1%
+}
+
+.imageflow .caption {
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    z-index: 10000
+}
+
+.imageflow .scrollbar {
+    border-bottom: 1px solid #b3b3b3;
+    position: relative;
+    visibility: hidden;
+    z-index: 10001;
+    height: 1px
+}
+
+.imageflow .slider {
+    /* background-image: url(../../Images/Index/slider.png); */
+    background-repeat: no-repeat;
+    height: 14px;
+    margin: -6px 0 0 -7px;
+    position: absolute;
+    width: 14px;
+    z-index: 10002
+}
+
+.imageflow .images {
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.imageflow .button {
+    cursor: pointer;
+    height: 17px;
+    position: relative;
+    width: 17px
+}
+
+.imageflow .previous {
+    /* background: url(../../Images/Index/button_left.png) top left no-repeat; */
+    float: left;
+    margin: -7px 0 0 -30px
+}
+
+.imageflow .next {
+    /* background: url(../../Images/Index/button_right.png) top left no-repeat; */
+    float: right;
+    margin: -7px -30px 0 30px
+}

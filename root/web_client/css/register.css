@@ -1,0 +1,17 @@
+.user-login {
+    margin-top: 240px;
+    height: 330px;
+}
+
+.user-login .sub {
+    top: 240px;
+}
+
+.user-login span:nth-child(4) {
+    top: 189px;
+    left: 36px;
+}
+
+.tip-reg {
+    top: -260px;
+}

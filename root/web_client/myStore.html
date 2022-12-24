@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GNK48-图书管理</title>
+    <link rel="shortcut icon" href="images/favicon_fox.ico">
+
+    <!-- 轮播图 -->
+    <link rel="stylesheet" href="css/imageflow.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/bookStore.css">
+    <link rel="stylesheet" href="css/cursor.css">
+    <link rel="stylesheet" href="css/myStore.css">
+    <script src="js/cursor.js"></script>
+    <script src="js/imageflow.js"></script>
+    <script src="js/jquery_min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/myStore.js"></script>
+</head>
+
+<body  >
+    <!--鼠标形状元素-->
+    <div id="cursorBlob"></div>
+    <!--页面内容-->
+    <div class="wrap"></div>
+    <div id="firefly"></div>
+    <!-- 顶部快捷导航begin -->
+    <section class="shutcut">
+        <h1>
+            <a href="index.html">
+                <img src="images/favicon_fox.ico" alt="">
+                <img src="images/logo.png" alt="">
+            </a>
+        </h1>
+        <div class="login">
+            <a href="javascript:;">
+                <img src="images/login.png" alt="">
+                <p>...</p>
+            </a>
+            <ul class="my-set">
+                <li><a href="change.html">修改密码</a></li>
+                <li><a href="nickname.html">修改昵称</a></li>
+                <li><a href="my_pic.html">更换头像</a></li>
+                <li><a href="message.html">联系我们</a></li>
+                <li><a href="javascript:;">退出登录</a></li>
+            </ul>
+        </div>
+        <div class="fun">
+            <ul>
+                <li>
+                    <a href="bookStore.html">
+                        <span></span>
+                        书库
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span></span>
+                        我的图书
+                    </a>
+                </li>
+                <li>
+                    <a href="borrow_records.html">
+                        <span></span>
+                        借阅记录
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <dic class="search">
+            <input type="text" value="请输入书名...">
+            <button></button>
+        </dic>
+    </section>
+    <!-- 顶部快捷导航end -->
+    <!-- 表格begin -->
+    <div class="book-store w">
+        <table>
+            <thead>
+                <tr>
+                    <td>书名</td>
+                    <td>作者</td>
+                    <td>是否归还</td>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td><a href="javascript:;">dd</a></td>
+                    <td>2</td>
+                    <td><a href="javascript:;">归还</a></td>
+                </tr> -->
+            </tbody>
+        </table>
+        <div class="pages">
+            <p></p>
+        </div>
+        <!-- <div class="pages">
+            <span></span>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+            <span></span>
+        </div> -->
+    </div>
+    <!-- 表格end -->
+    <!-- 鼠标样式 -->
+    <!-- <script src="js/bubbleCursor.js" type="text/javascript"></script> -->
+    <script src='js/jquery.firefly-0.7.min.js'></script>
+    <script type="text/javascript">
+        $.firefly({
+            color: '#fff',
+            minPixel: 1,
+            maxPixel: 3,
+            total: 65,
+            on: '#firefly',
+            borderRadius: 50
+        });
+    </script>
+</body>
+
+</html>
