@@ -12,8 +12,9 @@ root
   │
   ├─app_server            # 服务器端
   │  ├─db
-  │  │ 
-  │  ├─node_modules
+  │  │      index.js
+  │  │
+  │  ├─node_modules       # 不用看
   │  │
   │  ├─router
   │  │      artcate.js
