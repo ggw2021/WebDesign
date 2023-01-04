@@ -11,22 +11,22 @@
 root
   │
   ├─app_server            # 服务器端
-  │  ├─db
+  │  ├─db                 # 数据库
   │  │      index.js
   │  │
   │  ├─node_modules       # 不用看
   │  │
-  │  ├─router
+  │  ├─router             # 路由
   │  │      artcate.js
   │  │      user.js
   │  │      userinfo.js
   │  │
-  │  ├─router_handler
+  │  ├─router_handler     # 路由回调函数
   │  │      artcate.js
   │  │      user.js
   │  │      userinfo.js
   │  │
-  │  └─schema
+  │  └─schema             # 全局配置
   │          config.js
   │          user.js
   │
@@ -44,7 +44,7 @@ root
       │  register.html
       │  search.html
       │
-      ├─css
+      ├─css                # css代码
       │      base.css
       │      bookDescription.css
       │      bookStore.css
@@ -63,19 +63,19 @@ root
       │      search.css
       │      style.css
       │
-      ├─fonts
+      ├─fonts              # 字体图标
       │      icomoon.eot
       │      icomoon.svg
       │      icomoon.ttf
       │      icomoon.woff
       │
-      ├─images
+      ├─images             # 图片
       │      favicon_fox.ico
       │      login.png
       │      logo.png
       │      rank.png
       │
-      ├─js
+      ├─js                 # js代码
       │      bookDescription.js
       │      bookStore.js
       │      borrow_records.js
@@ -94,6 +94,6 @@ root
       │      register.js
       │      search.js
       │
-      └─upload
+      └─upload            # 图片
               login1.jpg
 ```
