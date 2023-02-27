@@ -30,70 +30,72 @@ root
   │          config.js
   │          user.js
   │
-  └─web_client            # 客户端
-      │  bookDescription.html
-      │  bookStore.html
-      │  borrow_records.html
-      │  change.html
-      │  index.html
-      │  login.html
-      │  message.html
-      │  myStore.html
-      │  my_pic.html
-      │  nickname.html
-      │  register.html
-      │  search.html
-      │
-      ├─css                # css代码
-      │      base.css
-      │      bookDescription.css
-      │      bookStore.css
-      │      borrow_records.css
-      │      change.css
-      │      common.css
-      │      cursor.css
-      │      imageflow.css
-      │      index.css
-      │      login.css
-      │      message.css
-      │      myStore.css
-      │      my_pic.css
-      │      nickname.css
-      │      register.css
-      │      search.css
-      │      style.css
-      │
-      ├─fonts              # 字体图标
-      │      icomoon.eot
-      │      icomoon.svg
-      │      icomoon.ttf
-      │      icomoon.woff
-      │
-      ├─images             # 图片
-      │      favicon_fox.ico
-      │      login.png
-      │      logo.png
-      │      rank.png
-      │
-      ├─js                 # js代码
-      │      bookDescription.js
-      │      bookStore.js
-      │      borrow_records.js
-      │      change.js
-      │      common.js
-      │      cursor.js
-      │      imageflow.js
-      │      index.js
-      │      jquery.firefly-0.7.min.js
-      │      jquery_min.js
-      │      login.js
-      │      message.js
-      │      myStore.js
-      │      my_pic.js
-      │      nickname.js
-      │      register.js
-      │      search.js
-      │
-      └─upload            # 图片
-              login1.jpg
+  ├─web_client            # 客户端
+  |   │  bookDescription.html
+  |   │  bookStore.html
+  |   │  borrow_records.html
+  |   │  change.html
+  |   │  index.html
+  |   │  login.html
+  |   │  message.html
+  |   │  myStore.html
+  |   │  my_pic.html
+  |   │  nickname.html
+  |   │  register.html
+  |   │  search.html
+  |   │
+  |   ├─css                # css代码
+  |   │      base.css
+  |   │      bookDescription.css
+  |   │      bookStore.css
+  |   │      borrow_records.css
+  |   │      change.css
+  |   │      common.css
+  |   │      cursor.css
+  |   │      imageflow.css
+  |   │      index.css
+  |   │      login.css
+  |   │      message.css
+  |   │      myStore.css
+  |   │      my_pic.css
+  |   │      nickname.css
+  |   │      register.css
+  |   │      search.css
+  |   │      style.css
+  |   │
+  |   ├─fonts              # 字体图标
+  |   │      icomoon.eot
+  |   │      icomoon.svg
+  |   │      icomoon.ttf
+  |   │      icomoon.woff
+  |   │
+  |   ├─images             # 图片
+  |   │      favicon_fox.ico
+  |   │      login.png
+  |   │      logo.png
+  |   │      rank.png
+  |   │
+  |   ├─js                 # js代码
+  |   │      bookDescription.js
+  |   │      bookStore.js
+  |   │      borrow_records.js
+  |   │      change.js
+  |   │      common.js
+  |   │      cursor.js
+  |   │      imageflow.js
+  |   │      index.js
+  |   │      jquery.firefly-0.7.min.js
+  |   │      jquery_min.js
+  |   │      login.js
+  |   │      message.js
+  |   │      myStore.js
+  |   │      my_pic.js
+  |   │      nickname.js
+  |   │      register.js
+  |   │      search.js
+  |   │
+  |   └─upload            # 图片
+  |           login1.jpg
+  |
+  └─my_db_01.sql          # 数据文件
 ```
