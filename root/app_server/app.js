@@ -76,5 +76,5 @@ app.use((err, req, res, next) => {
 
 //启动服务器
 app.listen(80, () => {
-    console.log('api server running at http://192.168.56.1');
+    console.log('api server running at http://127.0.0.1');
 });
