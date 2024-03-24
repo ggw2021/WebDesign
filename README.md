@@ -1,3 +1,4 @@
+![GitHub stars](https://img.shields.io/github/stars/ggw2021/WebDesign?style=social)
 # WebDesign
 
 > 大二网页设计选修课作业<br>
