@@ -110,7 +110,8 @@ root
 
 + 导入数据文件到mysql，`root\my_db_01.sql`，
 
-+ 修改数据库配置文件`db.js`
++ 修改数据库配置文件`/root/app_server/db/index.js`
+
 
   ```js
   const mysql = require('mysql')
